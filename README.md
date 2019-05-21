@@ -32,3 +32,4 @@ Examples:
 - display changes over time / over last x runs
 - Zeek uid pairing and/or additional triggering based off notices.log events
 - address coverage gaps between log rotation (look at a log that changed since last being read, which has also rotated and been gzip'd)
+- better config parsing
