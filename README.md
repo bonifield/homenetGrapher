@@ -15,10 +15,10 @@ Force-Directed Graph Generator for Internal-to-Internal Network Traffic Analysis
 
 homenetGrapher.py --log [log-path] --config [config-path] [--dot | --circo | --neato] [--help]
 
-	-l / --log			path of the Zeek (Bro) conn.log to be visualized
+	-l / --log		path of the Zeek (Bro) conn.log to be visualized
 	-g / --config		path of the homenets.cfg (line-separated file containing your network's CIDR ranges, one-per-line
 	-o / --output		output location (NOT filename) for the final image
-	-d / --dot			outputs image in dot format
+	-d / --dot		outputs image in dot format
 	-c / --circo		outputs image in circo format
 	-n / --neato		outputs image in neato format
 
